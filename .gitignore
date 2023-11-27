@@ -30,8 +30,8 @@
 *.exe
 *.out
 *.app
+rise
 
 # Mac OS X Finder metadata
 .DS_Store
 
-# CMake files
