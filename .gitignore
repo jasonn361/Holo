@@ -30,7 +30,7 @@
 *.exe
 *.out
 *.app
-rise
+holo
 lex.yy.c
 
 # Mac OS X Finder metadata
