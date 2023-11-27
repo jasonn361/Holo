@@ -1,9 +1,9 @@
 CC=gcc
 
-lexer: rise.lex
-	flex rise.lex
-	$(CC) -o rise lex.yy.c 
+lexer: holo.lex
+	flex holo.lex
+	$(CC) -o holo lex.yy.c 
 	rm lex.yy.c
 
 clean: 
-	rm rise
+	rm holo 
