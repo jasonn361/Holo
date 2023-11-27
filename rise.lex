@@ -5,7 +5,6 @@
 
 unsigned long long current_line = 1;
 unsgined long long current_column = 0;
-#define YY_USER_ACTION current_column += yyleng;
 
 /* End code injection */
 %}
@@ -15,7 +14,6 @@ unsgined long long current_column = 0;
 %%
 /* Start Definitions */
 
-// Integer
 /* End Definitions */
 %%
 
